@@ -1,0 +1,81 @@
+.Menu__MenuTrigger {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #221f3b;
+  padding: 20px 0 20px 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #6f4a8e;
+  font-family: "Montserrat", sans-serif;
+
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  color: #ebebeb;
+  padding-top: 30px;
+  font-size: 0.8rem;
+}
+
+.icon-footer {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-image {
+  /* Center and scale the image used*/
+  background-image: url("../images/profile.jpeg");
+  z-index: -1;
+  min-height: 100vh;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+}
+
+.navbrand-styling {
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navlink-styling {
+  color: #ebebeb;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.middle-container {
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 40px;
+}
+
+.middle-container-text {
+  right: 100px;
+  bottom: 0px;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: #221f3b;
+}
