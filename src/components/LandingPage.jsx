@@ -1,13 +1,14 @@
 import React from "react";
 import "./index.css";
-import NavBarComponent from "./NavBarComponent";
+import NavBarLandingPage from "./NavBarLandingPage";
 import MiddleContainerComponent from "./MiddleContainerComponent";
 import Footer from "./Footer";
 
 function LandingPage() {
   return (
     <div>
-      <NavBarComponent />
+      <div></div>
+      <NavBarLandingPage />
       <MiddleContainerComponent />
       <Footer />
     </div>
