@@ -48,21 +48,48 @@
   /* Needed to position the navbar */
 }
 
-.navbrand-styling {
+.navbrand-landingpage {
   color: #ebebeb;
   font-weight: 700;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 
-.navlink-styling {
+.navbrand-page {
+  color: #6f4a8e;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbrand-landingpage:hover {
+  color: #ebebebb6;
+}
+
+.navbrand-page:hover {
+  color: #6f4a8e9a;
+}
+
+.navlink-landingpage {
   color: #ebebeb;
   font-weight: 400;
   font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
 }
-.navlink-styling:hover {
+
+.navlink-page {
+  color: #6f4a8e;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navlink-landingpage:hover {
   color: #ebebebb6;
+}
+
+.navlink-page:hover {
+  color: #6f4a8e9a;
 }
 
 .middle-container {
