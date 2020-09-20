@@ -7,6 +7,5 @@ export const hiking = require("./hiking2.jpeg");
 export const workProfile = require("./workprofile.jpg");
 export const iwmacLogo = require("./iwmacLogo.jpg");
 export const namsosLogo = require("./namsosLogo.jpeg");
-export const kappahlLogo = require("./kappahlLogo.png");
 export const haugumLogo = require("./haugumLogo.png");
 export const workImg = require("./work.jpg");
