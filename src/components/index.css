@@ -2,6 +2,7 @@
   cursor: pointer;
 }
 
+/* Footer */
 .footer {
   background-color: #221f3b;
   padding: 20px 0 20px 0;
@@ -14,7 +15,6 @@
 .footer-link {
   color: #6f4a8e;
   font-family: "Montserrat", sans-serif;
-
   text-decoration: none;
   margin: 10px 20px;
 }
@@ -36,16 +36,14 @@
   height: 30px;
 }
 
+/* Navbar */
 .navbar-image {
-  /* Center and scale the image used*/
   background-image: url("../images/profile.jpeg");
   z-index: -1;
   min-height: 100vh;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-
-  /* Needed to position the navbar */
 }
 
 .navbrand-landingpage {
@@ -54,7 +52,6 @@
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
-
 .navbrand-page {
   color: #6f4a8e;
   font-weight: 700;
@@ -92,6 +89,7 @@
   color: #6f4a8e9a;
 }
 
+/* Landing page */
 .middle-container {
   text-align: center;
   background-color: #ebebeb;
@@ -108,4 +106,154 @@
   text-align: center;
   margin: 0 auto 0 auto;
   color: #221f3b;
+}
+
+/* About me */
+.drawingz  {
+  float: right;
+}
+
+.col-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 200px;
+}
+
+.container-padding {
+  padding: 20px 0;
+}
+
+.bottom-padding {
+  padding-bottom: 50px;
+}
+
+.coloumn-padding {
+  padding-bottom: 30px;
+}
+
+.education-header {
+  padding: 10px;
+  padding-left: 45px;
+}
+
+.education-year {
+  font-size: 1rem;
+}
+
+.education-card {
+  padding: 20px;
+  margin: 0 auto 0 auto;
+  background-color: #dccde7;
+  border-radius: 5px;
+  box-shadow: 5px 5px #9a88a7c0;
+}
+
+.about-me-div {
+  margin: 20px;
+  margin-left: 30px;
+}
+
+/* Work */
+.workdiv-padding {
+  padding: 20px;
+}
+
+.work-card {
+  padding: 30px;
+  background-color: #dccde7;
+  border-radius: 5px;
+  box-shadow: 5px 5px #9a88a7c0;
+}
+
+/* CV */
+.cv-div {
+  margin: 20px;
+  margin-left: 60px;
+  width: 360px;
+}
+.cv-btn {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  background-color: #6f4a8e;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.cv-btn:hover {
+  border-color: #e4cbf8;
+}
+
+/* Compendium */
+.compendium-header {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.compendium-desc {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.compendium-div {
+  height: 800px;
+  text-align: center;
+  justify-content: center;
+}
+
+.compendium-image {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.compendium-title {
+  color: #ebebeb;
+  font-family: "Montserrat", sans-serif;
+}
+
+.compendium-time {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.compendium-desc {
+  color: #ebebeb;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 600px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+  padding-top: 8px;
+}
+
+.compendium-btn {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.compendium-btn:hover {
+  border-color: #ebebeb;
 }
