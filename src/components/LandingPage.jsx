@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 import NavBarLandingPage from "./NavBarLandingPage";
 import MiddleContainerComponent from "./MiddleContainerComponent";
-import Footer from "./Footer";
 
 function LandingPage() {
   return (
@@ -10,7 +9,6 @@ function LandingPage() {
       <div></div>
       <NavBarLandingPage />
       <MiddleContainerComponent />
-      <Footer />
     </div>
   );
 }
