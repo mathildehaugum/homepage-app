@@ -5,6 +5,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import CvComponent from "./components/CvComponent";
 import Error from "./components/Error";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/cv" component={CvComponent} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
