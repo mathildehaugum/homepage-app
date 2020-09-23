@@ -60,6 +60,7 @@
 .navbar-image {
   background-image: url("../images/profile.jpeg");
   z-index: -1;
+  min-height: 100vh;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -68,11 +69,13 @@
 .navbrand-landingpage {
   color: #ebebeb;
   font-weight: 700;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 .navbrand-page {
   color: #6f4a8e;
   font-weight: 700;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -87,12 +90,14 @@
 .navlink-landingpage {
   color: #ebebeb;
   font-weight: 400;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
 }
 
 .navlink-page {
   color: #6f4a8e;
   font-weight: 400;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -104,43 +109,9 @@
   color: #6f4a8e9a;
 }
 
-/* Navbar - web display */
-@media (min-width: 768px) {
-  .navbar-image {
-    min-height: 100vh;
-  }
-  .navbrand-landingpage {
-    font-size: 2rem;
-  }
-  .navbrand-page {
-    font-size: 2rem;
-  }
-  .navlink-landingpage {
-    font-size: 1.5em;
-  }
-  .navlink-page {
-    font-size: 1.5em;
-  }
-}
-
-/* Navbar - mobile display */
-@media (max-width: 768px) {
-  .navbar-image {
-    min-height: 50vh;
-  }
-  .navbrand-landingpage {
-    font-size: 3rem;
-  }
-  .navbrand-page {
-    font-size: 3rem;
-  }
-  .navlink-landingpage {
-    font-size: 2em;
-  }
-  .navlink-page {
-    font-size: 2em;
-  }
-}
+/*.navbar-toggler-icon {
+  padding: 25px !important;
+} */
 
 /* Landing page */
 .middle-container {
