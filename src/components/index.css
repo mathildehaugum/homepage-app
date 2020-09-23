@@ -109,9 +109,9 @@
   color: #6f4a8e9a;
 }
 
-/*.navbar-toggler-icon {
-  padding: 25px !important;
-} */
+.navbar-toggler-icon {
+  padding: 20px !important;
+}
 
 /* Landing page */
 .middle-container {
