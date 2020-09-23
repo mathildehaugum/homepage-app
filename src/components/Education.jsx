@@ -5,7 +5,7 @@ function Education() {
   return (
     <Container className="container-padding">
       <Row>
-        <h2 className="education-header">Min utdanning</h2>
+        <h2 className="div-header-left">Min utdanning</h2>
       </Row>
       <Row>
         <Col sm={12} lg={4} className="coloumn-padding">
@@ -14,10 +14,11 @@ function Education() {
               Datateknologi <span className="education-year">[2018-2022]</span>
             </h4>
             <p>
-              Jeg studerer Datateknologi ved NTNU med spesialisering innenfor
-              Kunstig Intelligens. Det var interessen for programmering og
-              teknologi som gjorde at jeg valgt denne studieretningen og jeg
-              trives svært godt.
+              Jeg studerer 4. året på Datateknologi ved NTNU i Trondheim med
+              spesialisering innenfor Kunstig Intelligens. Motivasjonen for å
+              starte på studiet var et sterkt ønske om å lære mer om
+              programmering og kunne bidra i utviklingen av fremtidens
+              teknologier.
             </p>
           </div>
         </Col>
@@ -27,22 +28,26 @@ function Education() {
               Nanoteknologi <span className="education-year">[2014-2018]</span>
             </h4>
             <p>
-              Jeg studerte Nanoteknologi med retning innenfor bionano i fire år.
-              Det var interessen for teknologi som gjorde at jeg valgt denne
-              studieretningen og jeg trives svært godt.
+              Jeg studerte i 3.5 år på Nanoteknologi ved NTNU i Trondheim. Det
+              var interessen for realfag og nysgjerrigheten for hva som skjer
+              ved nanoskala som gjorde at jeg valgte dette studiet. Siden
+              studiet er så tverrfaglig, fikk jeg innblikk i mange ulike
+              fagområder.
             </p>
           </div>
         </Col>
         <Col sm={12} lg={4} className="coloumn-padding">
           <div className="education-card">
             <h4>
-              Studiespesialisering
+              VGS
               <span className="education-year"> [2011-2014]</span>
             </h4>
             <p>
-              I perioden 2011-2014 gikk jeg på studiespesialisering ved Olav
-              Duun i Namsos. Jeg tok flere emner innenfor realfag og det ble
-              begynnelsen for min interesse for teknologi og vitenskap.
+              Jeg gikk studiespesialisering ved Olav Duun Videregående skole med
+              fokus på realfag. Årsaken til dette valget var et ønske om å bli
+              sivilingeniør og en interesse for matte, biologi og fysikk. Årene
+              på videregående økte motivasjonen for å lære mer om
+              teknologiutvikling.
             </p>
           </div>
         </Col>
