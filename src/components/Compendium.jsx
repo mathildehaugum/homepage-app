@@ -89,9 +89,10 @@ function Compendium() {
           <Col className="compendium-desc" sm={12} md={8}>
             <p>
               Dette er et av de mest spennende emnene jeg har hatt ved NTNU. Vi
-              lærte om sikkerhetens rolle i SDLC, og vi fikk i oppgave å bruke
-              OWASP testguide og Risk Management Framework for å finne
-              utplasserte sårbarheter ved en gitt nettside.
+              lærte om sikkerhetens rolle i SDLC og fikk i oppgave å bruke OWASP
+              testguide og Risk Management Framework for å finne utplasserte
+              sårbarheter ved en nettside. Videre fikk vi i oppgave å sikre
+              nettsiden mot angrep fra andre grupper.
             </p>
           </Col>
         </Container>
@@ -156,12 +157,12 @@ function Compendium() {
         </h4>
         <Container>
           <Col className="compendium-desc" sm={12} md={8}>
-            <p className="compendium-desc">
+            <p>
               Dette emnet introduserte konsepter innenfor design, håndtering og
-              konstruksjon av databaser. I øvingene fikk vi i oppgave å lage en
-              treningsdagbok, og det ble mitt første møte med hvordan MySQL kan
-              brukes for å lagre og hente data fra en ekstern server, noe som ga
-              stor mestrinsfølelse når vi fikk det til.
+              konstruksjon av databaser. I øvingene lagde vi en treningsdagbok,
+              og det ble mitt første møte med hvordan MySQL kan brukes for å
+              lagre og hente data fra en ekstern server, noe som ga stor
+              mestrinsfølelse når vi fikk det til.
             </p>
           </Col>
         </Container>
@@ -189,7 +190,7 @@ function Compendium() {
         </h4>
         <Container>
           <Col className="compendium-desc" sm={12} md={8}>
-            <p className="compendium-desc">
+            <p>
               I dette emnet lærte vi om ulike typer informasjonssystemer,
               hvordan man kan identifisere organisasjoners behov og hvordan man
               kan fremme suksessfull implementering av endringer. Dette var et
@@ -223,13 +224,13 @@ function Compendium() {
         </h4>
         <Container>
           <Col className="compendium-desc" sm={12} md={8}>
-            <p className="compendium-desc">
+            <p>
               Etter å ha lært en del om generell programmering var det på tide å
               få mer kunnskap i hvordan man skaper gode brukeroppleveler. I
               øvingsopplegget fikk vi i oppgave å lage en lavnivå prototype av
               en mobil applikasjon og gjennomføre brukertesting. Jeg synes det
-              var interessant å lære om denne delen av programvareutvikling og
-              fint å få et større utløp for min kreativitet.
+              var gøyalt å lære om denne delen av programvareutvikling og
+              videreutvikle min kreativitet.
             </p>
           </Col>
         </Container>
@@ -257,7 +258,7 @@ function Compendium() {
         </h4>
         <Container>
           <Col className="compendium-desc" sm={12} md={8}>
-            <p className="compendium-desc">
+            <p>
               I dette emnet lærte vi om prinsipper innenfor moderne
               operativsystemer, og hvordan ulike teknikker kan brukes for å
               effektivt utnytte systemressursene. I tidligere emner har vi ofte
