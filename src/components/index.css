@@ -175,7 +175,6 @@
 }
 
 /* Work */
-
 .work-card {
   padding: 30px;
   background-color: #dccde7;
@@ -187,8 +186,8 @@
 .cv-div {
   margin: 20px;
   margin-left: 60px;
-  width: 360px;
-  height: 155px;
+  min-height: calc(100vh - 250px);
+  font-family: "Montserrat", sans-serif;
 }
 .cv-btn {
   display: inline-block;
