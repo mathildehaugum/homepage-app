@@ -23,10 +23,10 @@ import { Container, Col } from "react-bootstrap";
 function Compendium() {
   return (
     <div>
-      <Container>
-        <div className="compendium-header">
+      <Container className="compendium-header">
+        <div>
           <h2>Kompendium</h2>
-          <p>
+          <p className="div-paragraph">
             I løpet av mine år på NTNU har jeg skrevet flere kompendier innenfor
             ulike emner. Grunnen til at jeg har skrevet disse er at jeg synes
             det er en god ressurs å ha når man kommer ut i arbeidslivet. Disse
