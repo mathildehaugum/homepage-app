@@ -4,12 +4,12 @@ import { hiking } from "../images";
 
 function AboutMeTwo() {
   return (
-    <Container className="bottom-padding top-padding">
+    <Container className="about2-container">
       <Row>
-        <Col className="col-align col-padding" md={12} lg={6}>
+        <Col className="col-align col-margin" md={12} lg={6}>
           <img src={hiking} alt="profile-img" width="500" height="360" />
         </Col>
-        <Col className="col-padding" md={12} lg={6}>
+        <Col className="col-margin" md={12} lg={6}>
           <div className="div-header-right">
             <h2>Mine hobbyer</h2>
             <p className="div-paragraph">

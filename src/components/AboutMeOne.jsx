@@ -4,14 +4,14 @@ import { drawing } from "../images";
 
 function AboutMeOne() {
   return (
-    <Container className="container-padding">
+    <Container className="about1-container">
       <Row>
         <div className="div-header-left">
           <h2>Om meg</h2>
         </div>
       </Row>
       <Row>
-        <Col md={12} lg={6} className="col-padding">
+        <Col md={12} lg={6} className="col-margin">
           <p className="div-paragraph">
             Jeg heter Mathilde, er 24 år og kommer fra Namsos som er en liten by
             tre timer nord for Trondheim. I løpet av oppveksten har jeg alltid
@@ -31,7 +31,7 @@ function AboutMeOne() {
             jeg skal lære i fremtiden.
           </p>
         </Col>
-        <Col className="col-align col-padding" md={12} lg={6}>
+        <Col className="col-align col-margin" md={12} lg={6}>
           <img src={drawing} alt="profile-img" width="420" height="400" />
         </Col>
       </Row>

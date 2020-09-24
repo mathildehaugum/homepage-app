@@ -2,13 +2,13 @@
   cursor: pointer;
 }
 
+/* General padding/margin */
 .div-paragraph {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
 }
 
 .div-header-left {
-  margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   padding-left: 14px;
 }
@@ -18,7 +18,13 @@
   padding-left: 10px;
 }
 
-.col-padding {
+.col-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-margin {
   margin-bottom: 20px;
 }
 
@@ -133,26 +139,16 @@
 }
 
 /* About me */
-.col-align {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.about1-container {
+  padding: 40px 0 20px 0;
+}
+.about2-container {
+  padding: 50px 0 60px 0;
 }
 
-.container-padding {
-  padding: 10px 0;
-}
-
-.top-padding {
-  padding-top: 40px;
-}
-
-.bottom-padding {
-  padding-bottom: 70px;
-}
-
-.coloumn-padding {
-  padding-bottom: 30px;
+/* Education in about me */
+.education-container {
+  padding: 20px 0;
 }
 
 .education-header {
@@ -175,38 +171,8 @@
 }
 
 /* Work */
-.work-card {
-  padding: 30px;
-  background-color: #dccde7;
-  border-radius: 5px;
-  box-shadow: 5px 5px #9a88a7c0;
-}
-
-/* CV */
-.cv-div {
-  margin: 20px;
-  margin-left: 60px;
-  min-height: calc(100vh - 250px);
-  font-family: "Montserrat", sans-serif;
-}
-.cv-btn {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  background-color: #6f4a8e;
-  border: 0.16em solid rgba(255, 255, 255, 0);
-  border-radius: 1em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-  text-align: center;
-  transition: all 0.2s;
-}
-
-.cv-btn:hover {
-  border-color: #e4cbf8;
+.work-container {
+  padding: 40px 0 20px 0;
 }
 
 /* Compendium */
@@ -270,4 +236,31 @@
 
 .compendium-btn:hover {
   border-color: #ebebeb;
+}
+
+/* CV */
+.cv-div {
+  margin: 20px;
+  margin-left: 60px;
+  min-height: calc(100vh - 250px);
+  font-family: "Montserrat", sans-serif;
+}
+.cv-btn {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  background-color: #6f4a8e;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.cv-btn:hover {
+  border-color: #e4cbf8;
 }

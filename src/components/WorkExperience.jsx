@@ -4,14 +4,14 @@ import { workImg } from "../images";
 
 function WorkExperience() {
   return (
-    <Container className="container-padding">
+    <Container className="work-container">
       <Row>
         <div className="div-header-left">
           <h2>Arbeidserfaring</h2>
         </div>
       </Row>
       <Row>
-        <Col className="col-padding" md={12} lg={6}>
+        <Col className="col-margin" md={12} lg={6}>
           <p className="div-paragraph">
             Jeg fikk mitt første møte med arbeidslivet allerede når jeg var 14
             år og har siden det hatt flere jobber, både som deltidsansatt og
@@ -31,7 +31,7 @@ function WorkExperience() {
             faktorer for meg når jeg ser etter videre jobb i fremtiden.
           </p>
         </Col>
-        <Col className="col-align col-padding" md={12} lg={6}>
+        <Col className="col-align col-margin" md={12} lg={6}>
           <img src={workImg} alt="work-img" width="350" height="290" />
         </Col>
       </Row>

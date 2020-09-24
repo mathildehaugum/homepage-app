@@ -3,12 +3,12 @@ import { Row, Container, Col } from "react-bootstrap";
 
 function Education() {
   return (
-    <Container className="container-padding">
+    <Container className="education-container">
       <Row>
         <h2 className="div-header-left">Min utdanning</h2>
       </Row>
       <Row>
-        <Col sm={12} lg={4} className="coloumn-padding">
+        <Col sm={12} lg={4}>
           <div className="education-card">
             <h4>
               Datateknologi <span className="education-year">[2018-2022]</span>
@@ -22,7 +22,7 @@ function Education() {
             </p>
           </div>
         </Col>
-        <Col sm={12} lg={4} className="coloumn-padding">
+        <Col sm={12} lg={4}>
           <div className="education-card">
             <h4>
               Nanoteknologi <span className="education-year">[2014-2018]</span>
@@ -36,7 +36,7 @@ function Education() {
             </p>
           </div>
         </Col>
-        <Col sm={12} lg={4} className="coloumn-padding">
+        <Col sm={12} lg={4}>
           <div className="education-card">
             <h4>
               VGS

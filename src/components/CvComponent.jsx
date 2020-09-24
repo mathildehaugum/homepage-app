@@ -7,7 +7,7 @@ function CvComponent() {
   return (
     <div>
       <NavBar />
-      <div className="cv-div wrapper">
+      <div className="cv-div">
         <p>
           Hvis du ønsker å se min CV, kan du laste den ned{" "}
           <Link to={CvPdf} target="_blank" download>
