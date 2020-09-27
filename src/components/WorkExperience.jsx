@@ -21,7 +21,7 @@ function WorkExperience() {
             lykkes med arbeidsoppgaver og få positive tilbakemeldinger. For
             eksempel når jeg jobbet på Kappahl hadde vi flere konkurranser med
             andre butikker rundt om i landet, og selv om Namsos har en liten
-            butikk toppet vi listene for mengde mersalg. I februar 2018 fikk jeg
+            butikk toppet vi listene for mengde mersalg. I februar 2019 fikk jeg
             stillingen som prosjektkoordinator ved IWMAC AS, der
             arbeidsoppgavene mine innebærer tegning og design av
             brukergrensesnitt. Jeg trives ekstremt godt med deltidsjobben min og
