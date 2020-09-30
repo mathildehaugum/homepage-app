@@ -22,8 +22,8 @@ function AboutMeTwo() {
               jeg meg ofte på fjellet med en stor sekk som rommer sovepose, telt
               og primusen. Dersom jeg ikke er ute å farter kan jeg gjerne bruke
               tid på dataspill, og utviklingen innenfor spillteknologi har vært
-              en bidragsyter til min nysgjerrighet innenfor teknologi. I løpet
-              av den siste tiden har jeg også lært mye om utvikling av
+              en bidragsyter til min nysgjerrighet for teknologi. I løpet av den
+              siste tiden har jeg også lært mye om utvikling av
               nettapplikasjoner gjennom et kurs på udemy, og jeg har brukt mye
               av tiden ved siden av deltidsjobb og studie på å videreutvikle
               mine ferdigheter innenfor web utvikling.

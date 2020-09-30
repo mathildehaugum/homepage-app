@@ -15,7 +15,7 @@ function Education() {
             </h4>
             <p>
               Jeg studerer 4. året på Datateknologi ved NTNU i Trondheim med
-              spesialisering innenfor Kunstig Intelligens. Motivasjonen for å
+              spesialisering innenfor kunstig intelligens. Motivasjonen for å
               starte på studiet var et sterkt ønske om å lære mer om
               programmering og kunne bidra i utviklingen av fremtidens
               teknologier.

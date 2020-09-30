@@ -25,10 +25,10 @@ function WorkExperience() {
             stillingen som prosjektkoordinator ved IWMAC AS, der
             arbeidsoppgavene mine innebærer tegning og design av
             brukergrensesnitt. Jeg trives ekstremt godt med deltidsjobben min og
-            ønsker å beholde denne frem til studieslutt i 2022. Noe av det jeg
+            ønsker å beholde den frem til studieslutt i 2022. Noe av det jeg
             liker best med IWMAC er at de har et svært godt arbeidsmiljø, der
-            man kan føle seg trygg og hjelpe hverandre. Dette er viktige
-            faktorer for meg når jeg ser etter videre jobb i fremtiden.
+            man kan føle seg trygg og be om hjelp når man sitter fast. Dette er
+            viktige faktorer for meg når jeg ser etter videre jobb i fremtiden.
           </p>
         </Col>
         <Col className="col-align col-margin" md={12} lg={6}>

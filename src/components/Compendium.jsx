@@ -141,7 +141,7 @@ function Compendium() {
         </Link>
       </div>
       {/*Database*/}
-      <div className="compendium-div" style={{ backgroundColor: "#f8c687" }}>
+      <div className="compendium-div" style={{ backgroundColor: "#ffb860" }}>
         <img
           className="compendium-image"
           src={databaseIMG}
@@ -161,7 +161,7 @@ function Compendium() {
               Dette emnet introduserte konsepter innenfor design, håndtering og
               konstruksjon av databaser. I øvingene lagde vi en treningsdagbok,
               og det ble mitt første møte med hvordan MySQL kan brukes for å
-              lagre og hente data fra en ekstern server, noe som ga stor
+              lagre og hente data fra en ekstern server. Det ga stor
               mestrinsfølelse når vi fikk det til.
             </p>
           </Col>
@@ -169,7 +169,7 @@ function Compendium() {
         <Link to={databasePDF} target="_blank" download>
           <button
             className="compendium-btn"
-            style={{ backgroundColor: "#ffdeb6" }}
+            style={{ backgroundColor: "#f8c687" }}
           >
             Last ned
           </button>
@@ -226,10 +226,10 @@ function Compendium() {
           <Col className="compendium-desc" sm={12} md={8}>
             <p>
               Etter å ha lært en del om generell programmering var det på tide å
-              få mer kunnskap i hvordan man skaper gode brukeroppleveler. I
+              få mer kunnskap i hvordan man skaper gode brukeropplevelser. I
               øvingsopplegget fikk vi i oppgave å lage en lavnivå prototype av
               en mobil applikasjon og gjennomføre brukertesting. Jeg synes det
-              var gøyalt å lære om denne delen av programvareutvikling og
+              var gøyalt å lære mer om denne delen av programvareutvikling og
               videreutvikle min kreativitet.
             </p>
           </Col>
@@ -260,7 +260,7 @@ function Compendium() {
           <Col className="compendium-desc" sm={12} md={8}>
             <p>
               I dette emnet lærte vi om prinsipper innenfor moderne
-              operativsystemer, og hvordan ulike teknikker kan brukes for å
+              operativsystemer og hvordan ulike teknikker kan brukes for å
               effektivt utnytte systemressursene. I tidligere emner har vi ofte
               hørt om parallell prosessering og fordeler ved dette, så det var
               gøyalt å endelig lære mer om hvordan det kan implementeres.
