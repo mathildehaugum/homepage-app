@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"; //remember import in index.js
-import "./index.css";
 import { mailIcon, githubIcon, linkedinIcon } from "../images";
 import FooterIcon from "./FooterIcon";
 

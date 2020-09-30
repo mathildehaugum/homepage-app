@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-import "./index.css";
 import AboutMeOne from "./AboutMeOne";
 import AboutMeTwo from "./AboutMeTwo";
 import Education from "./Education";

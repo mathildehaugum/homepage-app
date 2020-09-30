@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import { Row, Image, Col } from "react-bootstrap"; //remember import in index.js
 
 export default function FooterIcon(props) {
