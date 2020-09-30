@@ -22,7 +22,7 @@ function AboutMeOne() {
             hyggelige medstudenter og lærte mye om fremtidens teknologi.
             Samtidig hadde jeg mitt første møte med programmering innenfor emnet
             ITGK og dette ga mersmak. Etterhvert som vi fikk høre om kunstig
-            intelligens, IoT, programvaresikkerhet, maskinlæring og Big Data
+            intelligens, IoT, programvaresikkerhet, maskinlæring og big data
             kjente jeg et sterkt behov for å lære mer om disse områdene. Derfor
             tok jeg avgjørelsen å bytte over til masterstudiet Datateknologi ved
             NTNU, og jeg har ikke angret siden. Nå går jeg på mitt fjerde år med
